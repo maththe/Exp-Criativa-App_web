@@ -131,23 +131,6 @@ export function Botao({
     );
 }
 
-// Componente de Card
-export function Card({ titulo, subtitulo, children, className = '' }) {
-    return (
-        <div className={`bg-white rounded-lg shadow-md hover:shadow-lg transition p-6 ${className}`}>
-            {titulo && (
-                <h2 className="text-xl font-bold text-gray-900 mb-2">
-                    {titulo}
-                </h2>
-            )}
-            {subtitulo && (
-                <p className="text-gray-600 text-sm mb-4">{subtitulo}</p>
-            )}
-            {children}
-        </div>
-    );
-}
-
 // Componente de Botões de Ação
 export function BotoesAcao({ onEditar, onVerDetalhes, onDeletar, carregando = false }) {
     return (
@@ -188,26 +171,4 @@ export function BotoesAcao({ onEditar, onVerDetalhes, onDeletar, carregando = fa
 
 
 // Componente de Input Customizado
-export function CampoTexto({
-    label,
-    obrigatorio = false,
-    erro = null,
-    ...props
-}) {
-    return (
-        <div className="mb-4">
-            {label && (
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                    {label}
-                    {obrigatorio && <span className="text-red-600"> *</span>}
-                </label>
-            )}
-            <input
-                className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent ${erro ? 'border-red-500' : 'border-gray-300'
-                    }`}
-                {...props}
-            />
-            {erro && <p className="text-red-600 text-sm mt-1">{erro}</p>}
-        </div>
-    );
-}
+
