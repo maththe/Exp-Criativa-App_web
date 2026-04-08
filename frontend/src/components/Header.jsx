@@ -27,6 +27,7 @@ export default function Header() {
                             GestaoCar
                         </span>
                     </Link>
+                    <div>Matheus Antonio Benardi</div>
 
                     {/* Desktop Navigation */}
                     <nav className="hidden md:flex items-center gap-2">

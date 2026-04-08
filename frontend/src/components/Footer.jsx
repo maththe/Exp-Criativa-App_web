@@ -42,7 +42,7 @@ export default function Footer() {
                         &copy; {year} Sistema de Gestão de Carros. Todos os direitos reservados.
                     </p>
                     <p>
-                        Desenvolvido por: <strong>Matheus</strong> (Seu Nome Completo ou RA aqui)
+                        Desenvolvido por: <strong>Matheus Antonio Bernardi</strong> 
                     </p>
                 </div>
             </div>
