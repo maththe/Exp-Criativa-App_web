@@ -1,4 +1,4 @@
-# Exp Criativa Front
+# Exp Criativa
 
 Projeto com frontend em React/Vite e backend em Node.js/Express com MySQL para cadastro e gerenciamento de carros.
 
