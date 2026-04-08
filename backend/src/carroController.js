@@ -47,6 +47,7 @@ const carroController = {
             });
         });
     },
+    
 
     updateCarro: (req, res) => {
         const { id } = req.params;
